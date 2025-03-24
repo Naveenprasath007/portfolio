@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from './components/NavBar' 
 import Home from './components/Home'
 
-const Works = () => <h2 className="text-center mt-4">Works</h2>;
-const Contact = () => <h2 className="text-center mt-4">Contact Us</h2>;
+const Works = () => <h2 className="text-center mt-4">Comming Soon...</h2>;
+const Contact = () => <h2 className="text-center mt-4">Comming Soon...</h2>;
 
 function App() {
 
