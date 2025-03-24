@@ -1,0 +1,32 @@
+.myheadingtext {
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0px;   
+}
+
+#my-description {
+    padding-top: 20px;
+    font-family: Heebo, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;  /* Better readability */
+    letter-spacing: 0px;
+}
+
+.resumebutton {
+    width: 208px;   /* Added px */
+    height: 47px;   /* Added px */
+    border-radius: 2px;
+    background-color: #FF6464;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.resumebutton:hover {
+    background-color: #ff4a4a;
+}

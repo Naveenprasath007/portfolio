@@ -1,0 +1,9 @@
+.custom-text {
+    font-size: 20px;
+    /* color: black; */
+  }
+
+.custom-text-active {
+    font-size: 20px;
+    color: #FF6464;
+  }
