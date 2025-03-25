@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import profileImage from '../../public/Generated.jpeg'
+import profileImage from '../assets/Generated.jpeg'
 
 const Home = () => {
   return (
