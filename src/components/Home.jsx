@@ -1,8 +1,17 @@
 import React from 'react';
 import './Home.css';
 import profileImage from '../assets/Generated.jpeg'
+import resumeFile from '../assets/NaveenPrasath.pdf'; // Adjust the path as needed
 
 const Home = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resumeFile; // Use the imported file path
+    link.download = "Np_resume.pdf";
+    link.click();
+  };
+
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-100 m-6 md:m-12 p-4 md:p-6">
 
@@ -25,7 +34,7 @@ const Home = () => {
         </div>
 
         <div className="flex justify-start mt-6">
-          <button className="resumebutton bg-[#FF6464] text-white px-4 py-2 rounded-md">
+          <button onClick={handleDownload} className="resumebutton bg-[#FF6464] text-white px-4 py-2 rounded-md">
             Download Resume
           </button>
         </div>
